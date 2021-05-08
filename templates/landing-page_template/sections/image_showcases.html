@@ -1,0 +1,17 @@
+{%load static%}
+        <!-- Image Showcases-->
+        <section class="showcase">
+            <div class="container-fluid p-0">
+
+                {%for item in section.content.showcases %}
+                <div class="row no-gutters">
+                    <div class="{{item.div_class}}" style="background-image: url('{%static item.img %}')"></div>
+                    <div class="{{item.child_div_class}}">
+                        <h2>{{item.heading}}</h2>
+                        <p class="lead mb-0">{{item.description}}</p>
+                    </div>
+                </div>
+                {%endfor%}
+            
+            </div>
+        </section>

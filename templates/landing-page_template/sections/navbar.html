@@ -1,0 +1,9 @@
+   <!-- Navigation-->
+        <nav class="navbar navbar-light bg-light static-top">
+            <div class="container">
+            {%for item in section.content.items%}
+                <a class="{{item.class}}" href="{{item.href}}">{{item.text}}</a>
+            {%endfor%}
+               
+            </div>
+        </nav>

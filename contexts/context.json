@@ -1,0 +1,186 @@
+{
+
+    "head":{
+        "meta":{
+            "description":"",
+            "author":""
+        },
+        "title":"Landing Page - Start Bootstrap Theme",
+        "favicon":"landing-page_template/assets/favicon.ico"
+
+    },
+    "sections":[
+        {
+            "file":"landing-page_template/sections/navbar.html",
+            "content":{
+                "items":[
+                    {
+                        "class":"navbar-brand",
+                        "href":"#!",
+                        "text":"Start Bootstrap"
+                    },
+                    {
+                        "class":"btn btn-primary",
+                        "href":"#!",
+                        "text":"Sign In"
+                    }
+                ]
+            }
+        },
+        {
+            "file":"landing-page_template/sections/masthead.html",
+            "content":{
+                "heading":"Build a landing page for your business or project and generate more leads!",
+                "form":{
+                   "input_type":"email",
+                   "input_placeholder":"Enter your email...",
+                   "button_class":"btn btn-block btn-lg btn-primary",
+                   "button_type":"submit",
+                   "button_text":"Sign up!"
+                }
+            }
+
+        },
+        {
+            "file":"landing-page_template/sections/icon_grids.html",
+            "content":{
+                "items":[
+                    {
+                     "div_class":"features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3",
+                     "icon":"icon-screen-desktop m-auto text-primary",
+                     "heading":"Fully Responsive",
+                     "subheading":"This theme will look great on any device, no matter the size!"
+                    },
+                    {
+                    "div_class":"features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3",
+                    "icon":"icon-layers m-auto text-primary",
+                    "heading":"Bootstrap 4 Ready",
+                    "subheading":"Featuring the latest build of the new Bootstrap 4 framework!"
+                    },
+                    {
+                        "div_class":"features-icons-item mx-auto mb-0 mb-lg-3",
+                        "icon":"icon-check m-auto text-primary",
+                        "heading":"Easy to Use",
+                        "subheading":"Ready to use with your own content, or customize the source files!"
+                    }
+                ]
+            }
+        },
+        {
+            "file":"landing-page_template/sections/image_showcases.html",
+            "content":{
+              
+                "showcases":[
+                        {
+                            "div_class":"col-lg-6 order-lg-2 text-white showcase-img",
+                            "img":"landing-page_template/assets/img/bg-showcase-1.jpg",
+                            "child_div_class":"col-lg-6 order-lg-1 my-auto showcase-text",
+                            "heading":"Fully Responsive Design",
+                            "description":"When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!"
+
+                        },
+                        {
+                            "div_class":"col-lg-6 text-white showcase-img",
+                            "img":"landing-page_template/assets/img/bg-showcase-2.jpg",
+                            "child_div_class":"col-lg-6 my-auto showcase-text",
+                            "heading":"Updated For Bootstrap 4",
+                            "description":"Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!"
+                        },
+                        {
+                            "div_class":"col-lg-6 order-lg-2 text-white showcase-img",
+                            "img":"landing-page_template/assets/img/bg-showcase-3.jpg",
+                            "child_div_class":"col-lg-6 order-lg-1 my-auto showcase-text",
+                            "heading":"Easy to Use & Customize",
+                            "description":"Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!"
+                        }
+                ]
+
+            }
+        },
+        {
+            "file":"landing-page_template/sections/testimonials.html",
+            "content":{
+                "heading":"What people are saying...",
+                "testimonials":[
+                    {
+                        "img":"landing-page_template/assets/img/testimonials-1.jpg",
+                        "img_alt":"...",
+                        "heading":"Margaret E.",
+                        "quote":"\"This is fantastic! Thanks so much guys!\""
+                       
+                    },
+                    {
+                        "img":"landing-page_template/assets/img/testimonials-2.jpg",
+                        "img_alt":"...",
+                        "heading":"Fred S.",
+                        "quote":"\"Bootstrap is amazing. I've been using it to create lots of super nice landing pages.\""
+
+                    },
+                    {
+                        "img":"landing-page_template/assets/img/testimonials-3.jpg",
+                        "img_alt":"...",
+                        "heading":"Sarah W.",
+                        "quote":"\"Thanks so much for making these free resources available to us!\""
+                    }
+                ]
+            }
+        },
+        {   
+            "file":"landing-page_template/sections/call_to_action.html",
+            "content":{
+                "heading":"Ready to get started? Sign up now!",
+                "form":{
+                    "input_type":"email",
+                    "input_placeholder":"Enter your email...",
+                    "button_class":"btn btn-block btn-lg btn-primary",
+                    "button_type":"submit",
+                    "button_text":"Sign up!"
+                 }
+            }
+        },
+        {
+            "file":"landing-page_template/sections/footer.html",
+            "content":{
+                "links":[
+                    {
+                        "href":"#!",
+                        "text":"About",
+                        "dot":"."
+                    },
+                    {
+                        "href":"#!",
+                        "text":"Contact",
+                        "dot":"."
+                    },
+                    {
+                        "href":"#!",
+                        "text":"Terms of Use",
+                        "dot":"."
+                    },
+                    {
+                        "href":"#!",
+                        "text":"Privacy Policy"
+                    }
+                ],
+                "copyright":"© Your Website 2021. All Rights Reserved.",
+                "socials":[
+                    {
+                        "li_class":"list-inline-item mr-3",
+                        "href":"#!",
+                        "icon":"fab fa-facebook fa-2x fa-fw"
+                    },
+                    {
+                        "li_class":"list-inline-item mr-3",
+                        "href":"#!",
+                        "icon":"fab fa-twitter-square fa-2x fa-fw"
+                    },
+                    {
+                        "li_class":"",
+                        "href":"#!",
+                        "icon":"fab fa-instagram fa-2x fa-fw"
+                    }
+                ]
+            }
+        }
+    ]
+}
